@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">FragmentDynamicTuto</string>
+    <string name="hello">Hello world!</string>
+    <string name="main_act_menu">MA Act.</string>
+    <string name="main_fra_menu">MF Act.</string>
+    <string name="detail_fra_menu">DF Act.</string>
+    <string name="title_activity_main">DynamicFragments</string>
+    <string name="main_fragment">MainFragment</string>
+    <string name="main_activity_menu_toast_mes">The icon of the menu of the main activity has been selected</string>
+    <string name="main_fragment_menu_toast_mes">The icon of the menu of the main fragment has been selected</string>
+    <string name="detail_fragment_menu_toast_mes">The icon of the menu of the detail fragment has been selected</string>
+
+</resources>

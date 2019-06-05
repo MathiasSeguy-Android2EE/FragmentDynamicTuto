@@ -1,0 +1,5 @@
+<resources>
+
+    <bool name="twoPane">false</bool>
+
+</resources>

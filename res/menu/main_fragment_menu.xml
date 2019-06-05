@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_main_fragment"
+        android:icon="@drawable/ic_menu_main"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/main_act_menu"/>
+
+</menu>

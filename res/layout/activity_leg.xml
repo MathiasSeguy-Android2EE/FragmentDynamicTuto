@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_fragment"
+        android:name="com.android2ee.tuto.fragment.fragmentstatic.tuto.view.legacy.main.MainFragmentLegacy"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </fragment>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/detail_fragment"
+        android:name="com.android2ee.tuto.fragment.fragmentstatic.tuto.view.legacy.detail.DetailFragmentLegacy"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </fragment>
+
+</LinearLayout>
