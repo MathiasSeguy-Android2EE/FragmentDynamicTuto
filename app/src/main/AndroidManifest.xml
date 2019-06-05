@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android2ee.tuto.fragment.fragment.dynamic.tuto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name="MApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        Enable the split on the action bar only for elements that are design for HoneyComb (or more)
+        So to split the action bar use android:uiOptions="splitActionBarWhenNarrow"  on the activity below
+
+
+        -->
+        <activity
+            android:name=".view.honeycomb.MainActivityHC"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity android:name=".view.legacy.MainActivityLegacy" >
+        </activity>
+    </application>
+
+</manifest>
